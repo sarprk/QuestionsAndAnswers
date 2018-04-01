@@ -1,0 +1,35 @@
+1. MediaTypeFormatter: Formats message body, also callled MiME type, in case of post its content-type which decides what is message format and for response body its accept header where acceptable mime type is mentioned.
+media type has two parts:
+type/subtype
+application/json
+
+New MediaTypeFormatter: extend class from mediatypeformmater or buffermediatype formmatter, register that class in webApi configuration
+
+2. Content Negotiation: Selects best representation for the given response when there are multiple representations available.
+	Primary mechanism are request header: accept headers
+	Pipeline - Gets an instance of IContentNegotiator from HttpConfiguration, call Negotiate method
+	Negotiate: Get availlable media type 
+		Select best media type for message representation
+		Set response media type
+
+3. Model Binding 
+    Parameter binding is controlled by IActionValueProvider - 
+		Check for BindingParameterAttribute in parameter
+		ParameterBindingRule added in webApi configuration
+		If not use default
+		
+	FromUri, FromBody, ModelBinder, TypeConverter
+	[TypeConverter(typeof(GeoPointConverter))]
+	Model binder gets value from ValueProvider, we can have custom value provider derived from IValueProvider
+	Register:
+	config.service.Add()
+4. Get and Post Headers 
+5. Return type of WebApi
+6. Delegating Handler - http://stackoverflow.com/questions/29549759/webapi-2-return-types
+7. Asynchronous call in webApi
+8. File download - set content type for bytearray content, set content disposition, set content type
+	http://stackoverflow.com/questions/26038856/how-to-return-a-file-filecontentresult-in-asp-net-webapi
+9. Asynchronous
+10. File upload and multi file upload
+
+	

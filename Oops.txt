@@ -1,0 +1,36 @@
+OOPS
+Pillars of OOPS - 
+	Abstraction - Hide Details, show what is relevant. Achieved through Access Modifiers
+	Encapsulation - Bind Methods and Data Member in a single entity- 
+		Advantage-> Reuse, Easy Maintenance
+	https://www.quora.com/What-are-some-real-world-example-of-encapsulation-and-abstraction-and-how-are-they-different-yet-related
+	
+	Inheritance-> Reuse, Extensibility, Overriding, Data Hiding
+			Disadvantage - Tight Coupling, Changing is hard in future
+			
+			
+	Polymorphism: Run time and compile time
+Abstract vs interface
+http://marker.to/0PpK49
+https://www.codeproject.com/Articles/11155/Abstract-Class-versus-Interface
+
+SOLID
+Design Patterns
+	Creation - Singleton, Factory Method, Prototype,
+	Structure - 
+		Proxy - control access to an object, To aceess External System, Delay loading, Decoupling actual implementation
+		Facade - Unified interface to set of interfaces in a subsystems
+		Adapter - Incompatible types to work together
+	Behaviour - Strategy, Chain of Responsibility, Visitor
+UML Diagrams
+OOPS Relationships.
+OOD Principles
+
+Encapsulate What Varies: Change is the only constant in the software field. When functionality is varying by different types..then its better to encapsulate it and expose the encapsulated interface to outerworld.
+ For example: Load BMP image, tommorrow we will have to load JPEG, JPG 
+ https://blogs.msdn.microsoft.com/steverowe/2007/12/26/encapsulate-what-varies/
+ http://thephantomprogrammer.blogspot.in/2015/07/identify-aspects-of-your-application.html
+ 
+Prefer Composition over Inheritance: Due to tight binding, Hierarchical structure, Less class involved
+http://marker.to/GxkXRK
+

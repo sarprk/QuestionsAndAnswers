@@ -1,0 +1,58 @@
+*************************2018 - P1**********
+Cloud computing certification - **
+IoT
+Data structure, os, networking
+Video Streaming
+Leadership and management quality and communication & pronunciation
+Running
+Focus on family growth
+Kavita admission to B.Ed
+*******2017**************
+Write Parser/ Compiler Designing - Basics
+Python
+big data
+Machine Learning
+3d Printing
+**************************************
+
+Mid Term
+Concurrency
+Design Patterns
+Networking
+Security
+Ethical Hacking
+
+Short Term
+Java Script
+HTML 5
+CSS3
+Database fundamental
+WebApi
+MVC
+Entity Framework
+Test Automation
+Performance Testing
+No Sql
+Financial
+Term Insurance
+
+******************
+Management and Leadership
+Unit Test
+Travelling sales man and napsock
+Grap and A start
+NP Complete mean
+Trees Traversal and manipulation
+Hash table, stack, link list
+
+Discrete Maths, Probability and combinatronics
+n choose k problems, Recursion
+
+OS - Process, Threads, Concurrency issues
+Semaphore, mutex
+Resource Allocation and Thread allocation, Context Switching
+How scheduling works
+System Design
+How internet actually works, Routers, Domain name server, Firewalls, Load balancers, Basics of houses
+Distributed system, Designing systen under certain constraint
+

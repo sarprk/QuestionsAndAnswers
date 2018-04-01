@@ -1,0 +1,36 @@
+Algos
+------
+Write a program for reversing a singly linked list.
+What data structure is used in dictionary?
+How hashing works internally?
+What is run time complexity of Dictionary?
+What does Asymptotic Notation do?
+What does log(n) mean?
+
+Web API
+----------
+ What do you mean by Blocking UI?
+ How Async and Await works in Web API? If you have multiple threads then how it works?
+ Does Async and Await improves response time?
+ 
+Angular
+--------
+  Difference between ng-show and ng-if
+  How to pass data from one controller to another?
+  Can you manipulate dom element directly using Angular?
+  What is two way binding?
+  
+Sql Server
+-----------
+Problem statement:
+a.       Find available conference slots on a given day (use whole number for the hour). The conference table already has a list of scheduled conferences. Conferences do not overlap. Example: 20th-March-2017 is the day we want to find available conference slots
+i.        The conference table has an entry from 20th March 12:00 am to 21st March 12 am. The result of this situation would be an empty set
+ii.       The conference table has an entry/entries from 20th March 12 am to 20th March 10 pm. The result of this situation would be 2 entries
+1.       20th March 10pm - 20th March 11pm
+2.       20th March 11pm – 21st March 12am
+iii.      The conference table has an entry from 20th March 1 am to 21st March 12 am. The result of this situation would be 1 entry
+1.       20th March 12am - 20th March 1am
+
+Share your approach for schema design for above problems
+What will be your approach to find all the available slots for meeting room booking? 
+	Consider time range like 19-02-2017 12AM to 23-02-2017 2AM

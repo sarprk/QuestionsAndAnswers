@@ -1,0 +1,132 @@
+MVC
+	Render and Partial Render
+		http://stackoverflow.com/questions/5248183/html-partial-vs-html-renderpartial-html-action-vs-html-renderaction
+		http://www.c-sharpcorner.com/interview-question/what-is-difference-between-htmlpartial-and-htmlrenderpartial
+		http://www.c-sharpcorner.com/uploadfile/8ef97c/most-asked-asp-net-mvc-interview-questions-and-answers/
+		https://docs.microsoft.com/en-us/aspnet/core/mvc/views/partial
+ 
+	Scafolding: Code Generation framework, MVC and WebAPI Generates code for CRUD operation to interact with databases. 
+
+    Advantage of Razor syntax
+		Unit Testable: The new view engine implementation will support the ability to unit test views (without requiring a controller or web-server, and can be hosted in any unit test project – no special app-domain required).
+		Great Intellisense
+		Compact syntax, Expressive
+		
+	How model binder works?
+		http://www.dotnetcurry.com/aspnet-mvc/1261/custom-model-binder-aspnet-mvc
+		https://docs.microsoft.com/en-us/aspnet/core/mvc/models/model-binding
+		https://blogs.msdn.microsoft.com/jmstall/2012/04/20/how-to-bind-to-custom-objects-in-action-signatures-in-mvcwebapi/
+	File Upload and large file upload
+	Anti-Forgery token
+		http://www.devcurry.com/2013/01/what-is-antiforgerytoken-and-why-do-i.html
+	Signature of Get and Post body
+	enctype - http://stackoverflow.com/questions/4526273/what-does-enctype-multipart-form-data-mean
+	MediaTypeFormatter: text/html, image/png/ application/json
+		http://www.tugberkugurlu.com/archive/creating-custom-csvmediatypeformatter-in-asp-net-web-api-for-comma-separated-values-csv-format
+		https://docs.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/media-formatters
+	ContentNegotiation: https://docs.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/content-negotiation
+	Exception Handling: 
+	Content-Disposition: https://www.codeproject.com/Articles/532590/Settingplusaplus-Content-Disposition-plusHTTPp
+	Routing Example:
+	https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing
+	Html Helper : Returns mvchtmlstring. Two ways to create it. One as html helper extension and other as helper in cshtml page
+	MVC and WebAPI Depndency differnce
+	Bundling:
+	How to view bundling code
+	How to download exe file
+	How to download and upload file and multiple files
+	[RequireHttps]
+	Owin - OWIN defines a standard interface between .NET web servers and web applications. The goal of the OWIN interface 
+		   is to decouple server and application
+		http://owin.org/
+	Oauth2
+	Authentication And Authorization
+		http://www.dotnettricks.com/learn/mvc/custom-authentication-and-authorization-in-aspnet-mvc
+	    Difference between owin authentication and form authentication
+	How cshtml file is processed?
+		How to create new kbhtml extension file? How to Razor can be extended?
+	Asynchronous in mvc-application	
+	MVC and IIS
+	Drop down binding
+		Drop down change event
+	Life cycle
+		http://blog.thedigitalgroup.com/chetanv/2015/06/30/a-detailed-walkthrough-of-asp-net-mvc-request-life-cycle/
+		https://www.codeproject.com/Articles/741228/MVC-Application-Lifecycle
+	Interview Sample Links:
+	https://blog.interviewmocha.com/asp-net-mvc-interview-questions-for-experienced/
+	http://www.c-sharpcorner.com/uploadfile/8ef97c/most-asked-asp-net-mvc-interview-questions-and-answers/
+WebAPI
+------
+How Api is declared 
+ public ApiController: apiController
+	Api Action results:
+		https://docs.microsoft.com/en-us/aspnet/web-api/overview/getting-started-with-aspnet-web-api/action-results
+		
+Can Api Return Views: Yes it can be using return type HttpResponseMessage and set headers context type text/html	
+
+Where to mention JSON format data is returned
+WebApi Pipe line http://www.dotnetcurry.com/aspnet/888/aspnet-webapi-message-lifecycle
+MVC Pipe line
+What is Area: 
+	How to register Area?
+what is hateoas? 
+	http://pracujlabs.io/2015/04/30/becoming-hateoas-with-webapi.html
+	https://spring.io/understanding/HATEOAS
+	https://en.wikipedia.org/wiki/HATEOAS
+How to debug in WebApi? Using rest client- PostMan 
+HTTP Headers:
+	https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+HTTP Verbs
+	GET and POST difference? 
+		Get - Sensitive data in header, robot and crawlers also uses get so might change server data which is a bigger risk, Get request cached by some browser, idempotent, can be bookmarked, remain in browser history, Encoding Type, Restriction on Data Type  
+		https://www.w3schools.com/tags/ref_httpmethods.asp
+		http://www.java67.com/2014/08/difference-between-post-and-get-request.html
+		
+	Post and Put differnce ?
+		http://restcookbook.com/HTTP%20Methods/put-vs-post/
+		https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.1.2
+	HEAD and GET Difference
+	Patch vs Put
+		http://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples
+	Safe and Unsafe methods
+	Idempotent Methods
+	
+URI, URL, URN difference : URI = URN + URL 
+	URN - Unique name, URL - Access Mechanism like http,ftp
+	
+Return type in WebApi - HttpResponseMessage
+How to send custom message from WebAPI - Update HTTPStatusCode and Message here on HttpResponseMessage
+What is IHttpActionResult ?
+How Async work in WebApi
+	https://msdn.microsoft.com/en-us/magazine/dn802603.aspx
+	https://msdn.microsoft.com/magazine/jj991977
+SignalR
+Polling for fetching 1lac records
+
+REST 
+	What are Rest Principle?
+	How Rest differs from SOAP - Less network bandwidth, Architectural Pattern,
+
+
+HTTPStatusCode:
+	200, 
+	300, 302,307, 308
+	400,401, 404, 403,406
+	500, 502,503,504
+	
+Private setter and Getter
+Tuple
+How Expression works?
+	https://blogs.msdn.microsoft.com/charlie/2008/01/31/expression-tree-basics/
+	http://www.tutorialsteacher.com/linq/expression-tree
+What is data- attribute?
+How model binder works?
+	http://www.dotnetcurry.com/aspnet-mvc/1261/custom-model-binder-aspnet-mvc
+	
+Owin
+CORS: Cross Origin Resource Sharing (Add in every request, add in web.config, Add nuget package for CORS)
+	https://stackoverflow.com/questions/6290053/setting-access-control-allow-origin-in-asp-net-mvc-simplest-possible-method
+	https://forums.asp.net/t/2013856.aspx?enable+CORS+MVC+5
+OData
+	What is it? what purpose does it solves? Advantages Disadvantages,Where to use.
+	https://docs.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/create-an-odata-v4-endpoint

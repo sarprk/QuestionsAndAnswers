@@ -1,0 +1,77 @@
+January2017#
+-----------------------------------------------
+Data structures
+Algorithms
+- linked list sort, other questions, circular loop -
+  bit array ( 15 days )
+-----------------------------------------------
+wats app, uber, facebook, google search engine.
+bitly, ecommerce, trip/holiday booking.
+-----------------------------------------------
+Design patterns (1st)
+Architectures (1st)
+{pdssnapshotstoredev
+Dockers
+Micro services
+SOA
+EDA
+Domain driven design
+CQRS
+fast data architecture
+}
+-----------------------------------------------
+OAuth, OpenId and connect
+-----------------------------------------------
+Operating system - scheduling, context switching ( 3 days)
+Networking - routers, switches , hubs (3 days), VPN, IPSec VPN
+Web -- dns
+SSL - Asymmetric/ Symetric - Performance
+newtork performance
+Cryptography
+-----------------------------------------------
+Test driven development
+Edge test cases and scenarios
+Type of testing
+Dependency Injection
+--------------------------------------------------
+Agile concepts
+Behavioral
+--------------------------------------------------
+security
+ethical hacking
+--------------------------------------------------
+javascript - scope
+Regex
+UML
+Math formulas
+wireshark internal working
+--------------------------------------------------
+Big data architecture
+--------------------------------------------------
+C# - Memory management, threading, garbage, app domain, clr etc..
+--------------------------------------------------
+MVC, WCF, Webapi, Asp.Net Core
+--------------------------------------------------
+spark, kafka , zookeeper , elasticsearch
+--------------------------------------------------
+IIS Working
+--------------------------------------------------
+database working
+--------------------------------------------------
+Azure
+-Redis
+-azure search
+- service bus
+- worker and webrole
+-
+Azure  advanced
+relay
+--------------------------------------------------
+Payment gateways
+travelling salesman
+knapsack
+hackerrank
+locality of reference
+Lamport's bakery algorithm
+---------------------------------------------------
+Architectures vs design

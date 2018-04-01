@@ -1,0 +1,30 @@
+Probability
+P(H) = Number of Possibility of meeting my condition / Number of equally likely events
+In case of fair coin, number of equally likely events are Head, Tail
+For getting head, only Head is meeting my condition which is one
+So Total probability of getting head is P(H) = 1/2
+
+Probability of Getting Head And Tail = 0/2 = 0
+
+P(A or B) = P(A) + P(B) - P(A And B)
+
+Compound probability of independent events
+Probability of getting TWO HEADS in two spin of coins = Probability of getting head in first spin * Probability of getting head in second spin
+Probability of getting TWO HEADS in two spin of coins = 1/2 * 1/2 = 1/4
+
+Getting at least one head is equal to Not getting all tails
+ For 3 flips of coin - 7/8 (At least one head)
+ Formula = 1-P(TTT) = 1- 1/8 = 7/8
+ 
+For counting probability of unfair coin, Frequency is used: like 60% chance of getting head and 40% chance of getting tail. SO in this case we will consider 3/5 for head and 2/5 for tail. 
+
+Binomial Coefficient: n!/(k!(n-k)!)
+
+Formula for K exactly heads out of n spins = (n!/(k!(n-k)!))/ 2^n
+
+3 exactly heads out of 5 spins result using above formula
+120
+---- = 10/32
+6*2
+
+Base Theorem P(b |a) = P(a|b)p(b) / p(a)

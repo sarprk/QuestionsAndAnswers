@@ -1,0 +1,496 @@
+Why Dependency Injection - DI, Design Pattern, Help for managing future changes, Uses Builder Object, 
+	3 types of Injection - Constructor, Property(Setter), Method also called Interface injection
+	Loose coupling Centralized configuration Easily testable 
+    Performance impact any?
+	What is service Locator?
+	Any advantages of having multipe container? 
+	Resolve or ResolveAll
+	How constructor injection works when we call a service from rest client?
+    What is Container? Life time of container?
+	What is Unity- IoC container from Microsoft. Its extendable.The Unity Container (Unity) is a lightweight, extensible dependency injection container. It facilitates building loosely coupled applications.
+	
+	http://stackoverflow.com/questions/6550700/inversion-of-control-vs-dependency-injection
+	https://www.youtube.com/watch?v=zmdWWujU8M4
+
+Reflection
+	http://csharpinterviewfaq.blogspot.in/2010/01/reflection.html
+
+What is dll?
+	https://stackoverflow.com/questions/124549/what-exactly-are-dll-files-and-how-do-they-work
+	
+Aynchronous Programming
+	https://msdn.microsoft.com/en-us/library/mt674882.aspx
+	https://www.codeproject.com/Articles/996857/Asynchronous-programming-and-Threading-in-Csharp-N
+	Delegate and Events
+	Func and Action
+	https://msdn.microsoft.com/en-us/library/bb534960(v=vs.110).aspx
+	How to debug Async method
+	
+Threading 
+	Lock:
+		https://msdn.microsoft.com/en-us/library/c5kehkcz.aspx
+		Synchronization and Deadlock Avoidance
+			Lock
+			Monitor 
+			Mutex
+				https://msdn.microsoft.com/en-us/library/system.threading.mutex(v=vs.110).aspx
+			Semaphore
+				https://msdn.microsoft.com/en-us/library/system.threading.semaphore(v=vs.110).aspx
+			Interlocked 
+		Deadlock
+		Deadlock Detection
+		Difference between Semaphore and Mutex
+			https://www.quora.com/What-is-the-difference-between-a-mutex-and-a-semaphore
+		AutoResetEvent
+			https://msdn.microsoft.com/en-us/library/system.threading.autoresetevent(v=vs.110).aspx
+		ManualResetEvent
+			https://msdn.microsoft.com/en-us/library/system.threading.manualresetevent(v=vs.110).aspx
+	WaitHandle:
+		https://msdn.microsoft.com/en-us/library/system.threading.waithandle(v=vs.110).aspx
+	
+Covariance and Contravariance: covariance and contravariance enable implicit reference conversion for array types, delegate types, and generic type arguments. Covariance preserves assignment compatibility and contravariance reverses it.
+
+MarshalByRefObject? Enables access to objects across application domain boundaries in applications that support remoting.
+	https://msdn.microsoft.com/en-us/library/system.marshalbyrefobject(v=vs.110).aspx
+	
+Volatile:  indicates that a field might be modified by multiple threads that are executing at the same time.
+	https://msdn.microsoft.com/en-us/library/x13ttww7.aspx
+
+CLR - A virtual machine, that manages the execution of .Net Program.
+	  Code converted from MSIL to native using JIT Compiler(Load when required) - Pre, Econo(Load and Free), Normal(Use Cache)
+	  Memory Management
+	  Exception Handling
+	  
+Assembly Type
+	Private: Assembly used in a single application
+	Public: Shared among many applications. Version is required
+	Satellite: Assembly in the specific directory of the locale.
+	http://www.dotnetfunda.com/interviews/show/4404/what-are-the-different-types-of-assemblies-in-net
+	
+How Async and Await works?
+Yeild-https://msdn.microsoft.com/en-us/library/9k7k7cf0.aspx
+
+Constraints of Generics
+Use of new() in Generics definition
+https://msdn.microsoft.com/en-us/library/d5x73970.aspx
+
+New Features in c#
+	https://msdn.microsoft.com/en-us/magazine/dn802602.aspx
+	https://docs.microsoft.com/en-us/dotnet/articles/csharp/whats-new/csharp-6
+	https://docs.microsoft.com/en-us/dotnet/articles/csharp/whats-new/csharp-7
+	
+Pillars oops - Abstraction, Encapsulation, Inheritance, Polymorphism(compile time and run time)
+http://www.c-sharpcorner.com/UploadFile/e6a07d/pillars-of-oop/ (Make some youtube video)
+	Which is more tightly coupled Inheritance vs Composition?
+	http://www.introprogramming.info/english-intro-csharp-book/read-online/chapter-20-object-oriented-programming-principles/
+
+Early Binding and Late Binding- Overridden functions are functions that have same signature but are implemented differently in derived class.  
+Attribute Routing
+https://www.exceptionnotfound.net/attribute-routing-vs-convention-routing/
+named parameters -> t1:10
+
+
+what is iife - Immediately invoked function expression
+What is Promise- The Promise object is used for asynchronous computations. A Promise represents a value which may be available now, or in the future, or never.
+Promise has 3 states: Pending, Fulfilled, rejected
+https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise
+https://spin.atomicobject.com/2016/02/16/how-javascript-promises-work/
+
+callback function- executed when current effect is finished. JS execute code line by line, however next line of code can be run even though current effect is not finished.
+
+
+Property without setter or Getter and its behaviour
+
+Inversion of control
+Difference between "" and String.Empty,
+
+object create
+{}, 
+var person = new Object();
+Object.create()
+Object Literal -var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+Object constructor - new person("John", "Doe", 50, "blue");
+
+Icomparable
+
+JS
+------------------
+	strict mode - undeclared, keywords, delete, same parameters
+	callback- Continuation when current effect is finished, callback hell
+	javascript:void(0) - http://www.quackit.com/javascript/tutorial/javascript_void_0.cfm
+		void(0) vs # 
+			http://stackoverflow.com/questions/3666683/href-javascript-vs-href-javascriptvoid0
+	unobstrusive js?
+		http://blog.teamtreehouse.com/unobtrusive-javascript-important
+		http://stackoverflow.com/questions/4478795/what-is-unobtrusive-javascript-in-layman-terms
+	Cookie:
+		https://www.tutorialspoint.com/javascript/javascript_cookies.htm
+		https://www.howtogeek.com/119458/htg-explains-whats-a-browser-cookie/
+	Map and Join usage
+		https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_map3
+	Slice And Splice, Shift, Pop, Reduce
+		https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+	How to handle live stream?
+		http://www.strathweb.com/2013/01/asynchronously-streaming-video-with-asp-net-web-api/
+	Dirty Form Validation?
+	Navigator object - https://www.w3schools.com/jsref/obj_navigator.asp
+	Webkit - 
+	noscript: The content inside the <noscript> element will be displayed if scripts are not supported, or are disabled in the user's browser.
+	How to improve performance client side
+	
+HTML
+----------------
+	meta - https://www.w3schools.com/tags/tag_meta.asp
+		responsive meta - <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	responsive app: 
+	Global Attribute: https://www.w3schools.com/tags/ref_standardattributes.asp
+	doctype: 
+	
+
+CSS
+-----------------
+	media Queries: https://www.w3schools.com/css/css3_mediaqueries.asp
+
+SOA:
+	SOA Principle	http://searchmicroservices.techtarget.com/tip/The-principles-of-service-orientation-part-1-of-6-Introduction-to-service-orientation
+		http://serviceorientation.com/serviceorientation/service_autonomy
+		
+		- Autonomy, Abstraction, Stateless, Formal Contract sharing
+		  Autonomy - Should have high control on its runtime execution environment
+SOAP:
+
+EF- 
+How to use Stored Procedure 
+http://www.mikesdotnetting.com/article/299/entity-framework-code-first-and-stored-procedures
+
+C#
+Use of Private Constructor - Stop Instantiation, Singleton, Factory Pattern
+	Private constructor in the base class then how to inherit? Nested class can inherit?
+	
+Static Class  vs Class with Private Constructor and with all static members
+https://msdn.microsoft.com/en-us/library/79b3xss3.aspx
+
+Why static can not be inherited.. because of Sealed by nature
+    Static can be inherited from object class only
+Static member can be overloaded but not overrided
+
+Advantage of using constants
+Because a constant’s value is embedded directly in code at compile time, constants don’t require any memory to be allocated for them at runtime
+
+ReadyOnly vs Constants: Runtime constant and compile time constant, Const has performance gain. ReadyOnly is instance variable as compared to const which is a class level member. Const can not be passed as reference as its value is bind at compile time, but ReadyOnly can be.
+https://msdn.microsoft.com/en-us/library/acdd6hb7.aspx
+
+Lamda expression and Delegate differnce? 
+Compile time and Runtime polymorphism example apart from conventional differnce: Delegate
+Method extension - Purpose and example
+	Extension methods enable you to "add" methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type. Extension methods are a special kind of static method, but they are called as if they were instance methods on the extended type.
+	https://msdn.microsoft.com/en-IN/library/bb383977.aspx
+	Binding of Extension Method at compile time
+	Example:
+	The most common extension methods are the LINQ standard query operators that add query functionality to the existing System.Collections.IEnumerable and System.Collections.Generic.IEnumerable<T> types. 
+	
+Func and Action 
+	Differnce
+	Parameter Limit
+
+LINQ
+	How to view LINQ Query?
+		http://stackoverflow.com/questions/1412863/how-do-i-view-the-sql-generated-by-the-entity-framework
+	How LINQ works internally?
+	How to improve LINQ Query?
+	How to perform Left outer join in LINQ?
+		https://msdn.microsoft.com/en-us/library/bb397895.aspx
+	Dynamic LINQ? Usage?
+	Transaction on multiple dbcontext
+	Performance issues with entity framework
+	
+Collection:	
+	IEnumerable and IQuerable difference
+		Deferred Execution and Lazy Loading
+		http://www.dotnettricks.com/learn/linq/ienumerable-vs-iqueryable
+		
+Visual Studio Framework Features
+	4.5.1 vs 4.5
+	
+Memory Allocation in dictionary
+What is Jagged Array?
+
+Advance Topic
+How Data Anotation works?
+
+Ambient Context
+Anti-Pattern
+Delegate 
+IComparable
+
+Authentication
+	Type of Authentication
+	Token Based Authentication
+	Role based Authentication in WebAPI
+	https://www.codeproject.com/articles/1005485/restful-day-sharp-security-in-web-apis-basic
+	What are authentication schemes? Anonymous, Basic, Digest, NTLM, Negotiate, Windows Live ID
+	https://msdn.microsoft.com/en-us/library/ms789031(v=vs.110).aspx
+	
+	
+Filter in MVC
+	Type of filter and order: Authorization filter, Action Filter, Result Filter, Exception Filter
+	How to create custom Action filter: public class CachingFilterAttribute : ActionFilterAttribute
+	Example of existing filter - Authorize, RequireHttps, HandleError, OutputCache, 
+	How many ways filters can be applied- Class Level, Method Level, GlobalConfigiration.Configuration.Filters.Add
+	Note: Controller implement all type of filters
+	
+
+Minification and Bundling 
+	How Bundling
+	How Minification
+	Advantage of Minification and Bundling
+	Minification and Bundling using Grunt
+	
+HTTP Fundamentals
+	How HTTPS works with SSL
+		https://docs.oracle.com/cd/E19509-01/820-3503/ggbgc/index.html
+		Symmetric vs Asymetric Keys
+			https://www.cs.utexas.edu/users/byoung/cs361/lecture44.pdf
+		SSL Handshake
+			http://searchsecurity.techtarget.com/answer/The-SSL-handshake-process-Public-and-privates-keys-explained
+			http://www.slashroot.in/understanding-ssl-handshake-protocol
+			https://blogs.msdn.microsoft.com/kaushal/2013/08/02/ssl-handshake-and-https-bindings-on-iis/
+			
+	How HTTP works?
+	http://www.garshol.priv.no/download/text/http-tut.html
+	DNS fundamental
+		http://dyn.com/blog/dns-why-its-important-how-it-works/
+	
+TCP/IP Fundamentals
+	http://www.studytonight.com/computer-networks/tcp-ip-reference-model
+	https://technet.microsoft.com/en-in/library/cc786128(v=ws.10).aspx
+	
+	
+	
+Session Management?
+Caching
+Concurrency Management
+Scalability
+Performance Tuning
+	Performance of Asp.Net
+		https://dzone.com/articles/10-ways-to-speed-up-your-aspnet-mvc-application
+	Performance tools type
+	
+Transaction and Its type
+	
+Bulk Insert 
+	Using Entity Framework
+	Using Sql Server way
+	
+Framework
+Thin CLient 
+Smart Client
+Click Once Deployment
+AppFabric
+Multi Layer vs Multi Tier
+Impact Analysis
+What is Unicode? 
+	What is UTF-8/UTF-16 - Unicode Transformation Format
+	UTF-8 - 8 bits unicode formatter while UTF-16 is 16 bit unicode formatter
+
+OSI Layer
+	Protocols at upper layer and lower level
+	Transport level Security
+	Message level Security
+
+Entity Framework
+	How to manage multiple dbcontext pointing to multiple database - 
+SQL Server
+	Global and Local temp table - 
+	Declare function: 
+		CREATE FUNCTION "funcName" RETURNS int
+	Function VS Procedure
+		http://www.c-sharpcorner.com/UploadFile/996353/difference-between-stored-procedure-and-user-defined-functio/
+	CTE
+	Cast VS Convert
+		https://www.essentialsql.com/what-is-the-difference-between-cast-and-convert/
+	GO: Used to Group sql command
+	JOIN
+	SUbQuery and correlated SubQuery
+		http://www.complexsql.com/subqueries-correlated-subquery/
+		Which is better? http://stackoverflow.com/questions/17268848/difference-between-subquery-and-correlated-subquery
+		
+	Union and Union All
+	How to Hold function returning tabular value in a variabe 
+	How Execution plan is generated in Sql Server? Continued
+	Partion function
+		Row_Number
+		PartionBy
+		Rank
+	Type of SubQuery
+		Correlated
+		NonCorrelated
+		https://blog.sqlauthority.com/2007/09/07/sql-server-correlated-and-noncorrelated-subquery-introduction-explanation-and-example/
+		
+	Design DB Schema
+		Relationship - 
+			One to One - Parent table and child table with unique foreign key reference,
+			One to Many - Parent child relationship, 
+			Many to Many - Keep intermediate mapping table for tableA and tableB
+	Interview Questions:
+		https://blog.sqlauthority.com/sql-server-interview-questions-and-answers/
+		http://career.guru99.com/top-50-sql-server-questions-answers/
+		COALESCE 
+	Dynamic Sql: https://www.codeproject.com/Articles/20815/Building-Dynamic-SQL-In-a-Stored-Procedure
+				http://www.benkotips.com/pages/DynamicSQL.aspx
+	Collation
+	Surrogate Key
+		http://www.databasejournal.com/features/mssql/article.php/3922066/SQL-Server-Natural-Key-Verses-Surrogate-Key.htm
+	Transaction and Isolation Level
+		https://www.simple-talk.com/sql/t-sql-programming/questions-about-t-sql-transaction-isolation-levels-you-were-too-shy-to-ask/
+		Type of transaction 
+		https://sqldbpool.com/2008/03/19/transactions-and-locks-in-sql-server/
+		https://docs.microsoft.com/en-us/sql/t-sql/statements/set-transaction-isolation-level-transact-sql
+	Indexing
+		https://www.simple-talk.com/sql/learn-sql-server/sql-server-index-basics/
+		https://www.codeproject.com/Articles/190263/Indexes-in-MS-SQL-Server
+		UNIQUE CLUSTERED INDEX
+	Performance Tuning
+		SET STATISTICS IO ON
+	SQL Server all in one
+	https://docs.microsoft.com/en-us/sql/relational-databases/database-features
+	
+	Sql Query practices Links:
+	http://www.1keydata.com/sql/alter-table-drop-constraint.html
+	https://www.tutorialspoint.com/sql/sql-default.htm
+	
+	Constraints
+		http://www.c-sharpcorner.com/UploadFile/f0b2ed/constraints-in-sql-server/
+		https://technet.microsoft.com/en-us/library/ms189862(v=sql.105).aspx
+		
+	Sql Data Types
+		https://www.connectionstrings.com/sql-server-2012-data-types-reference/
+		https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql
+		http://stackoverflow.com/questions/9207404/whats-best-sql-datatype-for-storing-json-string
+	Type conversion:
+		https://docs.microsoft.com/en-us/sql/t-sql/functions/conversion-functions-transact-
+		https://www.essentialsql.com/what-is-the-difference-between-cast-and-convert/
+	View:
+		https://www.codeproject.com/Articles/266985/Views-In-SQL-Server
+		Inline View: Select * from (select * from abc) as a1
+			Advantage: No need to create too many temporary object
+		Exec sp_spaceused - Use this to check space used by table or views
+		https://www.codeproject.com/Articles/199058/SQL-Server-Indexed-Views-Speed-Up-Your-Select-Quer
+	Intersect vs Inner Join
+		https://www.quora.com/What-is-the-difference-between-inner-join-and-intersect
+	GETDATE() vs SYSDATETIME() - Get date returns date time till milliseconds while SYSDATETIME returns till nano seconds
+	Delete Duplicate Rows
+	Partion By: https://docs.microsoft.com/en-us/sql/t-sql/queries/select-over-clause-transact-sql
+	Pivot: https://docs.microsoft.com/en-us/sql/t-sql/queries/from-using-pivot-and-unpivot
+	Rank: https://docs.microsoft.com/en-us/sql/t-sql/functions/rank-transact-sql
+		Rank and Dense_Rank - Dense rank returns sequential rank while Rank does not.
+	NTile(int): Divides result set in the specified partioned
+	TimeFromParts: Returns time from integer parameter
+		SELECT TIMEFROMPARTS ( 23, 59, 59, 0, 0 ) AS Result;  
+	Find all the employees who joined in the same month and on same date
+		GROUP BY YEAR(record_date), MONTH(record_date)
+	Index rebuild ?
+	Data purging in sql server
+		http://sqlmag.com/database-administration/4-ways-purge-non-partitioned-data
+	How to create a job and schedule it? using sql server agent
+	What do you mean by mission-critical system?
+	what file and filegroup backups and transaction log backups means? Its important
+	What is snapshot backups? why it is fast
+	What does N' stands for in a SQL scripts? - Used to specify unicode
+---------
+Memory allocation
+	What is memory mapped files? https://docs.microsoft.com/en-us/dotnet/standard/io/memory-mapped-files
+How Garbage collector works?
+	https://msdn.microsoft.com/en-us/library/ee787088(v=vs.110).aspx
+	http://www.dotnettricks.com/learn/netframework/net-garbage-collection-and-finalization-queue
+	The call GC.SuppressFinalize(this) instructs the garbage collector not call the finalizer for the current object. It's generally invoked from the implementation of IDisposable.Dispose method.
+	GC.Collect: Forces an immediate garbage collection of all generations. Use this method to try to reclaim all memory that is inaccessible.
+	Use this method to force the system to try to reclaim the maximum amount of available memory.
+	
+Events and Delegate
+	https://www.codeproject.com/Articles/4773/Events-and-Delegates-Simplified
+	http://csharpindepth.com/Articles/Chapter2/Events.aspx
+	
+	from product in products
+	group product by product.Last[0] 
+
+WCF
+---
+http://www.c-sharpcorner.com/UploadFile/8ef97c/wcf-interview-questions-and-answers/
+
+IIS 
+----
+	Web Farm vs Web Garden
+	How web request is processed? MVC and WebAPI
+	Subsites: Hosting and working
+	Websites and WebApplication difference
+	Different Authentication types?
+	Classic mode vs Integrated Mode
+	Features of IIS 7.5
+		https://www.iis.net/learn/get-started/introduction-to-iis/introduction-to-iis-architecture
+	How to add new extension in IIS
+
+EF
+--
+Primary Key - [Key]
+Foreign Key [Foreign Key] - Can be used on navigation property - 
+	http://www.entityframeworktutorial.net/code-first/foreignkey-dataannotations-attribute-in-code-first.aspx
+	[ForeignKey("StudentId")]
+	public Student Student {get;set;}
+	or
+	[ForeignKey("Student")] - Foreign key of Student Schema and Relation name is StudentId
+	public int StudentId {get;set;}
+	public Student Student {get;set;}
+	
+Naviation Property
+Specify Schema
+Loading data - eager loading, lazy loading, explicit loading
+How to turnoff lazy loading
+include, load, query methods
+LINQ Sql query - 
+Datetime vs DatetimeOffset
+DBContext - https://msdn.microsoft.com/en-us/library/jj729737(v=vs.113).aspx
+How to execute Sql Query - http://www.entityframeworktutorial.net/EntityFramework4.3/raw-sql-query-in-entity-framework.aspx
+How to execute Stored Procedure - http://stackoverflow.com/questions/20901419/how-to-call-stored-procedure-in-entity-framework-6-code-first
+How to add/update/delete in EF 
+	Add - context.table.add(entityObject) - AddRange - for multiple entry
+	update - get query on context and context.SaveChanges() will do saving
+	Delete -
+  Attach? - http://stackoverflow.com/questions/30987806/dbset-attachentity-vs-dbcontext-entryentity-state-entitystate-modified
+  Entry? - https://msdn.microsoft.com/en-us/library/jj592676(v=vs.113).aspx
+ 
+Enterprise Application
+	https://msdn.microsoft.com/en-us/library/aa267045(v=vs.60).aspx
+Micro Services:
+	Micro Services vs Monolith Service
+	Soa VS Micro Service
+	http://microservices.io/patterns/microservices.html
+	https://smartbear.com/learn/api-design/what-are-microservices/
+	Service bus, Event Driven
+	
+No Sql 
+ESB vs Messaging 
+Event Driven Application
+Visual studio new features
+Done
+---------------------
+Passing Parameters to Base - Correct
+Not nullable - No Such Key words
+
+MVC and Web Api
+https://docs.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/media-formatters
+
+Web Installer functionality? How it works?
+Business Driven
+Behaviour Driven
+Test Driven
+Server less architecture
+
+Anonymous method? https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/anonymous-methods
+https://weblogs.asp.net/dwahlin/The-Power-of-Anonymous-Methods-in-C_2300_
+
+Lamda expression? Anonymous method vs Lamda expression? -  lambda expressions supersede anonymous methods as the preferred way to write inline code
+
+LINQ.ForEach vs simple foreach
+Asynchronous delegate vs Asynchronous method
